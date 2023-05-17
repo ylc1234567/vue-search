@@ -1,0 +1,46 @@
+{
+  "name": "@bienici/vue-search",
+  "version": "0.0.1",
+  "description": "A test component library",
+  "main": "./dist/bienici-vue-search.umd.js",
+  "module": "./dist/bienici-vue-search.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bienici-vue-search.esm.js",
+      "require": "./dist/bienici-vue-search.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/blocks": "^7.0.12",
+    "@storybook/manager-api": "^7.0.12",
+    "@storybook/testing-library": "^0.1.0",
+    "@storybook/theming": "^7.0.12",
+    "@storybook/vue": "^7.0.12",
+    "@storybook/vue-vite": "^7.0.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.1",
+    "storybook": "^7.0.12",
+    "vite": "^4.3.7",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue": "^2.7.14",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
