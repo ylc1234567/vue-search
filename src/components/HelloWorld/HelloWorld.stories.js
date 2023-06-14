@@ -3,7 +3,7 @@ import HelloWorld from './HelloWorld.vue'
 export default {
     title: 'HelloWorld',
     component: HelloWorld,
-    tags: ['autodocs'],
+    // tags: ['autodocs'],
     render: (args, { argTypes }) => ({
         props: Object.keys(argTypes),
         components: { HelloWorld },
