@@ -1,11 +1,8 @@
-# vite-vue2-starter
+*Build the lib*
 
-A simple start for using vue2 with vite, using [underfin's vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2).
+`npm run build`
 
-## Scripts
+*Test the lib with storybook*
 
-```bash
-  npm run dev # start dev server
-  npm run build # build for production
-  npm run serve # locally preview production build
-```
+`npm run storybook`
+
